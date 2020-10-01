@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="quiz2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Quiz Application</h1>
+            <h2 id="qnum"></h2>
+        </header>
+        <form id="questionform">
+            <h3 id="question">Question</h2>
+            
+            <input type="radio" id="opt1" name="qitem" value="Fixed Rate"> <label for="opt1">Fixed Rate</label> <br>
+            <input type="radio" id="opt2" name="qitem" value="Variable Rate"> <label for="opt2">Variable Rate</label> <br>
+            <input type="radio" id="opt3" name="qitem" value="Multi Rate"> <label for="opt3">Multi Rate</label> <br>
+            <input type="radio" id="opt4" name="qitem" value="Multiple Rate" > <label for="opt4">Multiple Rate</label> <br>
+            <input type="button" id='next' value="Next>>"> 
+            
+        </form>
+        <h2 id='result'>
+            
+        </h2>
+    </div>
+    <script src="quiz2.js"></script>
+</body>
+</html>
